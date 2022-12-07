@@ -1,0 +1,341 @@
+#main {
+    width: 100%;
+    margin: auto;
+    max-width: 800px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 800px;
+    max-width: 100%;
+    display: flex;
+    justify-content: normal;
+    align-items: center;
+    z-index: 3;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    margin-top: 0px;
+    color: #838355;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    float: right;
+    margin-top: 0;
+    display: block;
+    background-color: white;
+    color: #838355;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 0px;
+    font-size: larger;
+}
+
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+
+.main {
+    margin-top: 40px;
+}
+
+h1 {
+    padding-top: 110px;
+    color: #838355;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Roboto', sans-serif;
+    max-width: 100%;
+}
+
+.container {
+    position: relative;
+    width: 60%;
+    margin: 20px;
+    margin-left: 150px;
+
+}
+
+.planes {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0px;
+    left: 0px;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.container:hover .overlay {
+    opacity: 0.95;
+}
+
+.text {
+    color: #b64040;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 5px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+    width: 95%;
+}
+
+#par2 {
+    font-style: oblique;
+}
+
+.container2 {
+    position: relative;
+    width: 60%;
+    margin: 20px;
+    margin-left: 150px;
+}
+
+.abordaje {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 0;
+    bottom: 0px;
+    left: 0px;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.container2:hover .overlay2 {
+    opacity: 0.9;
+}
+
+.text2 {
+    color: #b64040;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+    width: 95%;
+}
+
+.container3 {
+    position: relative;
+    width: 60%;
+    margin: 20px;
+    margin-left: 150px;
+}
+
+.antropometria {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay3 {
+    position: absolute;
+    top: 0;
+    bottom: 0px;
+    left: 0px;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.container3:hover .overlay3 {
+    opacity: 0.9;
+}
+
+.text3 {
+    color: #b64040;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+    width: 95%;
+}
+
+.container4 {
+    position: relative;
+    width: 60%;
+    margin: 20px;
+    margin-left: 150px;
+}
+
+.atencion {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay4 {
+    position: absolute;
+    top: 0;
+    bottom: 0px;
+    left: 0px;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.container4:hover .overlay4 {
+    opacity: 0.9;
+}
+
+.text4 {
+    color: #b64040;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+    width: 95%;
+}
+
+#cursiva {
+    font-style: oblique;
+}
+
+.container5 {
+    position: relative;
+    width: 60%;
+    margin: 20px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+}
+
+.whatsapp {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay5 {
+    position: absolute;
+    top: 0;
+    bottom: 0px;
+    left: 0px;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.container5:hover .overlay5 {
+    opacity: 0.9;
+}
+
+.text5 {
+    color: #b64040;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+    width: 95%;
+}
+
+
+
+footer {
+    background-color: #7e8e65;
+    color: #ddd;
+    bottom: 0;
+    position: fixed;
+    width: 800px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.seccion-final {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+}
+
+.seccion-final__parrafo {
+    margin-left: 10px;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: smaller;
+
+}
+
+.seccion-final__parrafo2 {
+    margin-right: 10px;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: smaller;
+}

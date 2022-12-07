@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200&family=Roboto:wght@700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/89d94ba0bc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="contactstyle.css">
+</head>
+
+<body>
+
+    <body background="bodybackground.png"></body>
+    <div id="main">
+        <div class="navbar">
+            <a href="index.html">INICIO</a>
+            <a href="sobremi.html">SOBRE MI</a>
+            <a href="serviciosdos.html">SERVICIOS</a>
+            <a href="contactodos.html">CONTACTO</a>
+            <a href="index.html"> <img class="loguito" src="loguito.png" alt="logo el ahora de comer" width="200"
+                    heigh="120"></a>
+            <button><a href="mailto:elahoradecomer@gmail.com"><i class="fa-regular fa-envelope"></i></button></a>
+            <button><a href="https://www.instagram.com/elahoradecomer"><i
+                        class="fa-brands fa-instagram"></i></button></a>
+            <button><a href="https://www.facebook.com/elahoradecomer"><i class="fa-brands fa-facebook"></i></button></a>
+        </div>
+        <div class="container">
+            <form action="action_page.php">
+
+                <label for="fname">NOMBRE</label>
+                <input type="text" id="fname" name="firstname" placeholder="Tu nombre..">
+
+                <label for="lname">APELLIDO</label>
+                <input type="text" id="lname" name="lastname" placeholder="Tu apellido..">
+
+                <label for="country">CIUDAD</label>
+                <select id="country" name="country">
+                    <option value="Montevideo">Montevideo</option>
+                    <option value="Canelones">Canelones</option>
+                    <option value="Maldonado">Maldonado</option>
+                    <option value="Durazno">Durazno</option>
+                    <option value="Artigas">Artigas</option>
+                    <option value="Salto">Salto</option>
+                    <option value="Treinta y Tres">Treinta y Tres</option>
+                    <option value="Rocha">Rocha</option>
+                    <option value="Cerro Largo">Cerro Largo</option>
+                    <option value="Paysandú">Paysandú</option>
+                    <option value="Rivera">Rivera</option>
+                    <option value="Colonia">Colonia</option>
+                    <option value="San José">San José</option>
+                    <option value="Flores">Flores</option>
+                    <option value="Soriano">Soriano</option>
+                    <option value="Florida">Florida</option>
+                    <option value="Lavalleja">Lavalleja</option>
+                    <option value="Rio Negro">Rio Negro</option>
+                    <option value="Tacuarembó">Tacuarembó</option>
+                </select>
+
+                <label for="subject">Consulta</label>
+                <textarea id="subject" name="subject" placeholder="Escribe aquí tu consulta.."
+                    style="height:200px"></textarea>
+
+                <input type="Enviar" value="Enviar">
+
+            </form>
+        </div>
+        <footer>
+            <div id="footerinfo1">
+                <p class="seccion-final__parrafo">Creado por Lic. María Kachadourian © </p>
+            </div>
+            <div id="footerinfo2">
+                <a href="mailto:dis.mkachadourian@gmail.com">
+                    <p class="seccion-final__parrafo2"> Contacto: dis.mkachadourian@gmail.com</p>
+                </a>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
